@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ExaxxPlus</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/style1.css">
+
+
+     <script type="text/javascript">
+
+$(document).ready(function() {
+  
+    $(document).on('click', '.dropdown-menu', function (e) {
+      e.stopPropagation();
+    });
+
+    if ($(window).width() < 992) {
+      $('.dropdown-menu a').click(function(e){
+        e.preventDefault();
+          if($(this).next('.submenu').length){
+            $(this).next('.submenu').toggle();
+          }
+          $('.dropdown').on('hide.bs.dropdown', function () {
+         $(this).find('.submenu').hide();
+      })
+      });
+  }
+  
+}); 
+</script>
+
+<style type="text/css">
+  @media (min-width: 992px){
+    .dropdown-menu .dropdown-toggle:after{
+      border-top: .3em solid transparent;
+        border-right: 0;
+        border-bottom: .3em solid transparent;
+        border-left: .3em solid;
+    }
+
+    .dropdown-menu .dropdown-menu{
+      margin-left:0; margin-right: 0;
+    }
+
+    .dropdown-menu li{
+      position: relative;
+    }
+    .nav-item .submenu{ 
+      display: none;
+      position: absolute;
+      left:100%; top:-7px;
+    }
+    .nav-item .submenu-left{ 
+      right:100%; left:auto;
+    }
+
+    .dropdown-menu > li:hover{ background-color: #ffffff }
+    .dropdown-menu > li:hover > .submenu{
+      display: block;
+    }
+  }
+</style>
+  </head>
+  <body>
+    <div class="bg-top navbar-light">
+      <div class="container">
+        <div class="row no-gutters d-flex align-items-center align-items-stretch">
+          <div class="col-md-4 d-flex align-items-center py-4">
+            <a class="navbar-brand" href="index.html">Exaxx+ <span>Plus</span></a>
+          </div>
+          <div class="col-lg-8 d-block">
+            <div class="row d-flex">
+              <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+                <div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+                <div class="text">
+                  <span>Email</span>
+                  <a href="mailto:support@colorlib.com"><span class="lnr lnr-envelope"></span> <span>exaxxlpus@gmail.com</span></a>
+                </div>
+              </div>
+              <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+                <div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+                <div class="text">
+                  <span>Call</span>
+                  <a href="tel:+91 7218526859"><span class="lnr lnr-phone-handset"></span> <span >Call Us:7218526859</span></span></a>
+                </div>
+              </div>
+              <div class="col-md topper d-flex align-items-center justify-content-end">
+                <p class="mb-0">
+                  <a href="#" class="btn py-2 px-3 btn-primary d-flex align-items-center justify-content-center">
+                    <span>Apply now</span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div class="container d-flex align-items-center px-4">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+
+          <span class="oi oi-menu"></span> Menu
+        </button>
+        <form action="#" class="searchform order-lg-last">
+          <div class="form-group d-flex">
+            <input type="text" class="form-control pl-3" placeholder="Search">
+            <button type="submit" placeholder="" class="form-control search"><span class="ion-ios-search"></span></button>
+          </div>
+        </form>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+<ul class="navbar-nav">
+  <li class="nav-item active"> <a class="nav-link" href="index.html">Home </a> </li>
+  <li class="nav-item"><a class="nav-link" href="about.html"> About </a></li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Internship</a>
+      <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="internship.html">Marketing</a></li>
+      <li><a class="dropdown-item" href="internship.html">Content Writing</a>
+      <li><a class="dropdown-item" href="internship.html">Artificial Intelligence</a>
+      <li><a class="dropdown-item" href="internship.html">Machine Learning</a>   
+      </li></ul>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Contract </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item dropdown-toggle" href="contract.html">Electrical</a>
+         <ul class="submenu dropdown-menu">
+          <li><a class="dropdown-item" href="contract.html">Nashik</a></li>
+          <li><a class="dropdown-item" href="contract2.html">Ahmadnagar</a></li> 
+       </ul>
+      </li>
+      <li><a class="dropdown-item" href="#">Civil</a></li>
+      <li><a class="dropdown-item" href="#">Computer/IT</a></li>
+      <li><a class="dropdown-item" href="#">Loan</a></li>
+      </ul>
+  </li>
+
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Project</a>
+      <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="courses.html"> Machine Learning</a></li>
+      <li><a class="dropdown-item" href="courses.html"> Python</a></li>
+      <li><a class="dropdown-item" href="courses.html">IOT</a></li>
+      <li><a class="dropdown-item" href="courses.html">COVID 19 Precaution System</a></li>
+      <li><a class="dropdown-item" href="courses.html">Website Design</a></li>
+      <li><a class="dropdown-item" href="courses.html">Others</a></li>
+      <!--<li><a class="dropdown-item dropdown-toggle" href="#">Others</a>
+         <ul class="submenu dropdown-menu">
+          <li><a class="dropdown-item" href="">Information Technology</a></li>
+          <li><a class="dropdown-item" href="">Electrical</a></li>
+          <li><a class="dropdown-item" href="">Mechanical</a></li>
+          <li><a class="dropdown-item" href="">Civil</a></li>
+          <li><a class="dropdown-item" href="">E & TC</a></li>
+       </ul>
+      </li>-->
+    </ul></li>
+    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">NGO</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">Loan</a></li>
+    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+</ul>
+</li></ul></div>
+
+
+      </div>
+    </nav>
+    <!-- END nav -->
+    
+  
+   
+
+       <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg2.jpg');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-9 ftco-animate text-center">
+            <h1 class="mb-2 bread">Exaxx Plus Electricals Govt. Licensed Electricals Conctractors.</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contract <i class="ion-ios-arrow-forward"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section p-3 mb-2  bg-light text-dark">
+      <div class="container heading-section ftco-animate">
+          
+          <div >
+            <h2 class="mb-6">Electrical Contract</h2>
+            <p>An electrical contractor is a business person or firm that performs specialized construction work related to the design, installation, and maintenance of electrical systems.An electrical contractor is different from an electrician; an electrician is an individual tradesman and an electrical contractor is a business person or company that employs electricians. Both usually hold licenses and insurances to properly and safely operate a business, protecting the employees and home owners/business owners from insurance liabilities. These requirements vary from state to state. Electricians may work for an electrical contractor, or directly for individuals or companies.</p>
+            <p>इलेक्ट्रिकल कंत्राटदार एक व्यावसायिक व्यक्ती किंवा टणक आहे जो विद्युत प्रणालीचे डिझाइन, स्थापना आणि देखभाल संबंधित विशेष बांधकाम कार्य करते.इलेक्ट्रिकल कॉन्ट्रॅक्टर हा इलेक्ट्रिशियनपेक्षा वेगळा असतो; इलेक्ट्रीशियन एक स्वतंत्र व्यापारी आहे आणि इलेक्ट्रिकल कंत्राटदार एक व्यावसायिक व्यक्ती किंवा कंपनी आहे जी इलेक्ट्रिशियन्सला रोजगार देते. व्यवसायाचे योग्य व सुरक्षितपणे संचालन करण्यासाठी परवाने व विमा दोघेही ठेवतात, ज्यामुळे कर्मचारी आणि घर मालकांना / व्यवसाय मालकांना विमा दायित्वापासून संरक्षण मिळते. या आवश्यकता वेगवेगळ्या राज्यात वेगवेगळ्या असतात. इलेक्ट्रिकल कंत्राटदारासाठी किंवा थेट व्यक्ती किंवा कंपन्यांसाठी काम करू शकते.</p>
+          </div><br><br>
+    </section>
+
+    	 
+    <section class="ftco-section p-3 mb-2  bg-light text-dark">
+      <div class="container heading-section ftco-animate">
+    <div class="row padding">
+    	
+        <div class="">
+           <h2 class="mb-6 font-weight-bold text-center "> Nilesh Thok Has Received Electrical Contract Licence</h2>       
+           
+        </div>
+        <div class="col-lg-4">
+            <img src="img/13.jpg" class="img-fluid">
+        </div>
+    	</div>
+	</div>
+	<hr class="my-4">
+	</section>
+
+
+
+
+
+	<section class="ftco-section bg-light">
+		<div class="col-md-8 text-center heading-section ftco-animate">
+            <h2 class="mb-4 text-center">Work Area</h2>
+            <p>These work done in March 2020</p>
+          </div>
+			<div class="container-fluid px-4">
+				<div class="row">
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(img/2.jpg);"></div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(img/4.jpg);"></div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(img/6.jpg);"></div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(img/7.jpg);"></div>
+							</div>
+							
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(img/8.jpg);"></div>
+							</div>
+						
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(img/9.jpg);"></div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(img/10.jpg);"></div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 ftco-animate">
+						<div class="staff">
+							<div class="img-wrap d-flex align-items-stretch">
+								<div class="img align-self-stretch" style="background-image: url(img/11.jpg);"></div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		 <section class="ftco-section p-3 mb-2  bg-light text-dark contact-section">
+		 	<h2 class="mb-6 text-center font-weight-bold text-danger">Contact Here </h2>
+      <div class="container  heading-section ftco-animate">
+
+        <div class="row d-flex contact-info">
+          <div class="col-md-3 d-flex">
+          	<div class="bg-light align-self-stretch box p-4 text-center">
+          		<h3 class="mb-4">Name</h3>
+	            <p>Nilesh Thok (Electrical Engg.)</p>
+	          </div>
+          </div>
+          <div class="col-md-3 d-flex">
+          	<div class="bg-light align-self-stretch box p-4 text-center">
+          		<h3 class="mb-4">Address</h3>
+	            <p>At:Khadangali, Post:Wadangali, Tal:Sinner,Dist:Nashik,Maharashtra</p>
+	          </div>
+          </div>
+          <div class="col-md-3 d-flex">
+          	<div class="bg-light align-self-stretch box p-4 text-center">
+          		<h3 class="mb-4">Contact Number</h3>
+	            <p><a href="tel://7218526859">+ 7218 5268 59</a></p>
+	            <p><a href="tel://8308405410">+ 8308 4054 10</a></p>
+	          </div>
+          </div>
+          <div class="col-md-3 d-flex">
+          	<div class="bg-light align-self-stretch box p-4 text-center">
+          		<h3 class="mb-4">Email Address</h3>
+	            <p><a href="mailto:info@yoursite.com">exaxxplus@gmail.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-3 d-flex">
+          	<div class="bg-light align-self-stretch box p-4 text-center">
+          		<h3 class="mb-4">Website</h3>
+	            <p><a href="#">exaxxplus.com</a></p>
+	          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+        <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-5">
+              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li><span class="icon icon-map-marker"></span><span class="text">MG Road, Nashik City,Nashik,Maharashtra</span></li>
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="lnr lnr-phone-handset"><span class="text">+91 7218526859</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">exaxxplus@gmail.com</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+         
+            <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-5 ml-md-4">
+              <h2 class="ftco-heading-2">Our Hours</h2>
+              <ul class="list-unstyled">
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Monday: 9am - 5pm</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Saturday: 10am - 4pm</a></li>
+                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Sunday: closed</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-5 ml-md-4">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+             <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+                <li><a href="about.html"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+                <li><a href="internship.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Internship</a></li>
+                <li><a href="contract.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Contract</a></li>
+                <li><a href="courses.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Project</a></li>
+                <li><a href="blog.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Blog</a></li>
+
+                <li><a href="contact.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            
+            <div class="ftco-footer-widget mb-5">
+            	<h2 class="ftco-heading-2 mb-0">Connect With Us</h2>
+            	<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+            	<li class="ftco-animate"><a href="https://wa.me/message/RVQIPJMGO2Y2M1"><span class="icon-whatsapp"></span></a></li>	
+                <li class="ftco-animate"><a href="https://wa.me/message/RVQIPJMGO2Y2M1"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://wa.me/message/RVQIPJMGO2Y2M1"><span class="icon-facebook"></span></a></li>
+      <li class="ftco-animate"><a href="https://instagram.com/___nileshraj___?igshid=p86fwj9j93i8"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-youtube"></span></a></li>
+                 <li class="ftco-animate"><a href="#"><span class="icon-linkedin"></span></a></li>
+                 
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p>
+  Exax+.com &copy; 
+  </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
